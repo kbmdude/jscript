@@ -24,8 +24,26 @@ console.log(`Type of num is ${typeof(num)}`);
 console.log( +(1.1 + 1.3).toFixed(1) === 2.4);
 
 // magic with numbers #2 and strings
-let n1_1 = "1.1";
+/*let n1_1 = "1.1";
 let n1_3 = "1.3";
 console.log(
     +((+n1_1) + (+n1_3)).toFixed(1) !== 2.4
-);
+);*/
+
+/*let localLoggingFunction = function(message)
+{
+    console.log(`Message is: ${message}`);
+}
+localLoggingFunction();*/
+
+/*// function mind-fuck
+function multi(number)
+{
+    let var_outer = 30;
+    return number * var_outer;
+}
+
+let var_outer = 12;
+
+console.log(multi(3));
+// result will be 90, logged to console*/

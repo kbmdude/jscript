@@ -16,6 +16,8 @@ function changeContent(elementId, newContent)
     return `${logMessage} from '${valueBeforeChange}' to '${document.getElementById(elementId)?.textContent}'.` ;
 }
 
+let multiPlication = 20;
+
 class Dog
 {
     name;
